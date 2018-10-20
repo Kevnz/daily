@@ -1,0 +1,1 @@
+# Base project for daily javascript exercises
