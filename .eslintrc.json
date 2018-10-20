@@ -1,7 +1,8 @@
 {
   "extends": [
     "standard",
-    "prettier"
+    "prettier",
+    "plugin:react/recommended"
   ],
   "plugins": [
     "import",
@@ -35,7 +36,8 @@
     ],
     "import/no-unresolved": 2,
     "import/order": [
-      "error", {
+      "error",
+      {
         "groups": [
           "builtin",
           "external",
@@ -46,7 +48,10 @@
         ]
       }
     ],
-    "import/first": [2, "absolute-first"],
+    "import/first": [
+      2,
+      "absolute-first"
+    ],
     "no-only-tests/no-only-tests": 2,
     "standard/computed-property-even-spacing": 0,
     "comma-dangle": [
