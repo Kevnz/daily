@@ -2,12 +2,14 @@
   "extends": [
     "standard",
     "prettier",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:sonarjs/recommended"
   ],
   "plugins": [
     "import",
     "no-only-tests",
-    "prettier"
+    "prettier",
+    "sonarjs"
   ],
   "settings": {
     "import/resolver": {
