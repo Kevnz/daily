@@ -2,6 +2,7 @@
   "extends": [
     "standard",
     "prettier",
+    "plugin:react/recommended",
     "plugin:sonarjs/recommended"
   ],
   "plugins": [
