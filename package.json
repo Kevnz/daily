@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "parcel ./src/index.html",
     "test": "jest ./src",
     "lint": "eslint ./src"
   },
@@ -26,9 +27,17 @@
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-sonarjs": "^0.2.0",
     "eslint-plugin-standard": "^4.0.0",
     "jest": "^23.6.0",
+    "parcel-bundler": "^1.10.3",
     "prettier": "^1.14.3"
+  },
+  "dependencies": {
+    "mini.css": "^3.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "story-router": "^1.0.1"
   }
 }
