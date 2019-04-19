@@ -18,17 +18,8 @@
   },
   "homepage": "https://github.com/Kevnz/daily#readme",
   "devDependencies": {
-    "eslint": "^5.7.0",
-    "eslint-config-prettier": "^3.1.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-no-only-tests": "^2.0.1",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-sonarjs": "^0.2.0",
-    "eslint-plugin-standard": "^4.0.0",
-    "jest": "^23.6.0",
-    "prettier": "^1.14.3"
+    "@kev_nz/eslint-config": "^3.2.1",
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1"
   }
 }
