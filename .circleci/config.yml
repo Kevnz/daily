@@ -1,0 +1,28 @@
+version: 2
+jobs:
+  "node-11":
+    docker:
+      - image: circleci/node:11
+    working_directory: ~/daily
+    steps:
+      - checkout
+
+      - run: npm install
+      - run: npm test
+
+  "node-10":
+    docker:
+      - image: circleci/node:10
+    working_directory: ~/daily
+    steps:
+      - checkout
+
+      - run: npm install
+      - run: npm test
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - "node-11"
+      - "node-10"
