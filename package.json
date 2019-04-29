@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node ./src/index.js",
     "test": "jest ./src",
     "lint": "eslint ./src"
   },
@@ -21,5 +22,8 @@
     "@kev_nz/eslint-config": "^3.2.1",
     "eslint": "^5.16.0",
     "jest": "^24.7.1"
+  },
+  "dependencies": {
+    "bent": "^1.4.1"
   }
 }
