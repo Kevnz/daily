@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/Kevnz/daily#readme",
   "devDependencies": {
-    "@kev_nz/eslint-config": "^3.2.1",
-    "eslint": "^5.16.0",
-    "jest": "^24.7.1"
+    "@kev_nz/eslint-config": "^4.0.0",
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0"
   }
 }
